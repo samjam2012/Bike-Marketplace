@@ -1,5 +1,5 @@
 {
-  "name": "Bicycle_Marketplace",
+  "name": "Bike_Marketplace",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -25,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sjamal2012/Bike_Marketplace.git"
+    "url": "git+https://github.com/samjam2012/Bike_Marketplace.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sjamal2012/Bike_Marketplace/issues"
+    "url": "https://github.com/samjam2012/Bike_Marketplace/issues"
   },
-  "homepage": "https://github.com/sjamal2012/Bike_Marketplace#readme"
+  "homepage": "https://github.com/samjam2012/Bike_Marketplace#readme"
 }
