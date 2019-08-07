@@ -21,7 +21,6 @@ const sessionConfig = {
 
 module.exports = {
   create: (request, response) => {
-    console.log("creating user...");
     if (email_validator.validate(request.body.email) == true) {
       User.create(request.body)
         .then(users => {
@@ -35,12 +34,10 @@ module.exports = {
               }
             })
             .catch(error => {
-              console.log("---create inner catch---");
               console.log(error);
             });
         })
         .catch(error => {
-          console.log("---create outer catch---");
           console.log(error);
         });
     }

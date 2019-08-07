@@ -22,10 +22,10 @@ export class BikeMarketService {
   ) {}
 
   createUser(user) {
-    this._http
+    this._http2
       .post("/new_user", user)
       .subscribe(
-        user => this.current_user.next(user.json()),
+        user => this.current_user.next(user),
         errorResponse => console.log(errorResponse)
       );
   }
